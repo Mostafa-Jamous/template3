@@ -192,11 +192,28 @@
 /* gallery section */
 
 .galleryContainer,
-.featuresContainer,
 .teamMembersContainer,
 .servicesContainer {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px;
+}
+
+.pricingPlansContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 40px;
+}
+
+.statsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 40px;
+}
+
+.featuresContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   gap: 40px;
 }
 
@@ -260,7 +277,7 @@
 }
 
 .featuresBorder:hover .imgHolder::after {
-  border-width: 170px 600px 170px 0px;
+  border-width: 170px 700px 170px 0px;
 }
 
 .bottomLine::after {
@@ -414,7 +431,7 @@
 
 .ourSkillsContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
   gap: 40px;
 }
 

@@ -11,7 +11,7 @@ function Stats() {
       <h1 className="font-bold text-[40px] w-fit mx-auto mb-[50px] relative">
         Our Awesome Stats
       </h1>
-      <div className="text-center md:w-[80%] lg:w-[85%] md:mx-auto lg:mx-auto px-2   articlesContainer">
+      <div className="text-center md:w-[80%] lg:w-[85%] md:mx-auto lg:mx-auto px-2 statsContainer">
         <StatsItem
           icon={<BsFillPersonFill className="mx-auto my-1 w-fit" size={40} />}
           num="150"

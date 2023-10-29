@@ -15,7 +15,7 @@ import footer6 from "../imgs/gallery-06.png";
 
 function Footer() {
   return (
-    <div className="bg-[#191919] pt-[70px] ">
+    <div className="bg-[#191919] pt-[70px] pb-2">
       <div className="mb-5 border-b border-[#b9b9b9] border-solid text-center md:w-[80%] lg:w-[85%] md:mx-auto lg:mx-auto px-2 articlesContainer">
         <div className="box mb-5">
           <h3 className="text-white font-bold text-5xl mb-[20px]">Elzero</h3>
@@ -78,7 +78,7 @@ function Footer() {
           <img src={footer6} alt="" />
         </div>
       </div>
-      <div className="mx-auto text-white text-xl w-fit my-5">
+      <div className="mx-auto text-white text-xl w-fit mt-5">
         Made by Mostafa Jamous
       </div>
     </div>
