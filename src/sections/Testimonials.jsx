@@ -13,7 +13,7 @@ function Testimonials() {
   return (
     <div className="py-[100px] bg-bgColor" id="testimonials">
       <MainTitle title="TESTIMONIALS" />
-      <div className="md:w-[80%] lg:w-[85%] md:mx-auto lg:mx-auto px-2 py-[100px] featuresContainer">
+      <div className="md:w-[80%] lg:w-[85%] md:mx-auto lg:mx-auto px-2 py-[100px] testimonialsContainer">
         <TestimonialsItem
           boxClass="testimonialsBox"
           photo={avatar1}

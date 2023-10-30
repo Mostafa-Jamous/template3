@@ -16,11 +16,11 @@ import footer6 from "../imgs/gallery-06.png";
 function Footer() {
   return (
     <div className="bg-[#191919] pt-[70px] pb-2">
-      <div className="mb-5 border-b border-[#b9b9b9] border-solid text-center md:w-[80%] lg:w-[85%] md:mx-auto lg:mx-auto px-2 articlesContainer">
+      <div className="mb-5 border-b border-[#b9b9b9] border-solid text-center md:w-[80%] lg:w-[85%] md:mx-auto lg:mx-auto px-2 grid grid-cols-4 gap-[40px] max-lg:grid-cols-2 max-sm:grid-cols-1">
         <div className="box mb-5">
           <h3 className="text-white font-bold text-5xl mb-[20px]">Elzero</h3>
           <div className="flex gap-5 mx-auto w-fit mb-5">
-            <div className="bg-[#313131] text-[#b9b9b9] inline-flex justify-center items-center w-[50px] h-[50px] duration-300 hover:bg-[#1877fe]">
+            <div className="bg-[#313131] text-[#b9b9b9] inline-flex justify-center items-center w-[50px] h-[50px] duration-300 hover:bg-[#1666fe]">
               <FaFacebookF size={20} />
             </div>
             <div className="bg-[#313131] text-[#b9b9b9] inline-flex justify-center items-center w-[50px] h-[50px] duration-300 hover:bg-[#1da1fe]">

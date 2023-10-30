@@ -9,7 +9,7 @@ function Features() {
   return (
     <div className="py-[100px]" id="features">
       <MainTitle title="FEATURES" />
-      <div className="md:w-[80%] lg:w-[85%] md:mx-auto px-2 py-[100px] featuresContainer">
+      <div className="md:w-[80%] lg:w-[85%] md:mx-auto px-2 py-[100px] grid grid-cols-3 gap-[40px] max-lg:grid-cols-2 max-md:grid-cols-1">
         <FeaturesItem
           photo={features1}
           title="Quality"

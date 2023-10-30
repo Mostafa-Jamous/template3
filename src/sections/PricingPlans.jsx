@@ -9,7 +9,7 @@ function PricingPlans() {
   return (
     <div className="bg-bgColor py-[100px]" id="pricingPlans">
       <MainTitle title="PRICING PLANS" />
-      <div className="relative md:w-[80%] lg:w-[85%] md:mx-auto lg:mx-auto px-2 py-[100px] pricingPlansContainer">
+      <div className="relative md:w-[80%] lg:w-[85%] md:mx-auto lg:mx-auto px-2 py-[100px] grid grid-cols-3 gap-[40px] max-md:grid-cols-2 max-sm:grid-cols-1">
         <PricingPlansItem
           title="Basic"
           photo={pricing1}
